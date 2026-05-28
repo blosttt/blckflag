@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK FLAG MMA - Centro Deportivo Integral</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&family=Outfit:wght@300;400;600;800;900&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <!-- Logo Section -->
+            <a href="#inicio" class="logo-wrapper">
+                <div class="logo-circle">
+                    <img src="assets/logo.png" alt="Black Flag MMA Logo" class="logo-img">
+                </div>
+                <span class="logo-text">BLACK FLAG MMA</span>
+            </a>
+
+            <!-- Navigation Links (Floating Bar Effect) -->
+            <nav class="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#quienes-somos" class="nav-link">¿Quiénes Somos?</a>
+                <a href="#planes" class="nav-link">Planes</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="nav-actions">
+                <button class="btn-text" id="btn-login-trigger">Inicio Sesión</button>
+                <button class="btn-accent-nav" id="btn-register-trigger">Regístrate</button>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" aria-label="Abrir menú">
+                <svg class="hamburger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12" class="line-1"></line>
+                    <line x1="3" y1="6" x2="21" y2="6" class="line-2"></line>
+                    <line x1="3" y1="18" x2="21" y2="18" class="line-3"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE NAVIGATION MENU -->
+    <div class="mobile-nav">
+        <nav class="mobile-menu-links">
+            <a href="#inicio" class="mobile-link">Inicio</a>
+            <a href="#quienes-somos" class="mobile-link">¿Quiénes Somos?</a>
+            <a href="#planes" class="mobile-link">Planes</a>
+            <a href="#contacto" class="mobile-link">Contacto</a>
+            <div class="mobile-actions">
+                <button class="btn-text mobile-btn" id="btn-login-trigger-mobile">Inicio Sesión</button>
+                <button class="btn-gradient mobile-btn" id="btn-register-trigger-mobile">Regístrate</button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        
+        <!-- HERO SECTION -->
+        <section id="inicio" class="hero">
+            <div class="hero-left">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-line-1">BLACK</span>
+                        <span class="title-line-2">FLAG MMA</span>
+                    </h1>
+                    <p class="hero-subtitle">"CENTRO DEPORTIVO INTEGRAL"</p>
+                    <p class="hero-description">Entrena al más alto nivel en un espacio diseñado para potenciar tus habilidades físicas y mentales. Disciplina, comunidad y fuerza bruta reunidos bajo una misma bandera.</p>
+                    <div class="hero-cta-group">
+                        <a href="#contacto" class="btn-gradient hero-cta-btn">¡ENTRENA CON NOSOTROS!</a>
+                        <a href="https://wa.me/56998266080" target="_blank" rel="noopener noreferrer" class="btn-outline hero-whatsapp-btn">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.459h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            Escríbenos
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <!-- Background image handled via CSS for better positioning and split effect -->
+                <div class="hero-bg-overlay"></div>
+            </div>
+        </section>
+
+        <!-- "VEN A CONOCERNOS" & PHILOSOPHY SECTION -->
+        <section id="quienes-somos" class="about">
+            <div class="section-container">
+                <!-- Section Header with Triple Red Bars -->
+                <div class="section-title-wrapper">
+                    <span class="bar-icon red-accent">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <h2 class="section-title-sub">BLACK FLAG</h2>
+                    <span class="bar-icon red-accent">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <h2 class="section-title-main">VEN A CONOCERNOS</h2>
+                
+                <p class="about-text">
+                    El concepto del gym es integrar a la familia, brindar un espacio de encuentro, fomentar la vida saludable, generar bienestar, potenciar el entrenamiento y conocer el maravilloso deporte de las MMA.
+                </p>
+
+                <!-- Gym Value Pillars -->
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Entrenamiento Integral</h3>
+                        <p>Acondicionamiento físico completo que abarca fuerza, resistencia, agilidad y técnica de combate.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm14 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Ambiente Familiar</h3>
+                        <p>Un espacio integrador para que entrenen niños, jóvenes y adultos en una comunidad unida y de respeto.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 8v4l3 3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Horarios Flexibles</h3>
+                        <p>Clases y sesiones libres distribuidas a lo largo del día para adaptarse a tu rutina diaria.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "PLANES ESPECIALES" SECTION -->
+        <section id="planes" class="pricing">
+            <div class="section-container">
+                <!-- Section Header with Triple Red Bars -->
+                <div class="section-title-wrapper">
+                    <span class="bar-icon red-accent">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <h2 class="section-title-sub">PROMOCION</h2>
+                    <span class="bar-icon red-accent">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <h2 class="section-title-main">PLANES ESPECIALES</h2>
+
+                <!-- Membership Cards Grid -->
+                <div class="pricing-container">
+                    
+                    <!-- PLAN MMA ACTIVO Card (Centerpiece) -->
+                    <div class="pricing-card main-plan-card">
+                        <div class="card-texture-overlay"></div>
+                        <div class="card-glow"></div>
+                        
+                        <div class="card-header">
+                            <span class="card-tag">RECOMENDADO</span>
+                            <h3 class="card-title">PLAN MMA ACTIVO</h3>
+                            <div class="card-price">
+                                <span class="price-currency">$</span>
+                                <span class="price-amount">40.000</span>
+                                <span class="price-period">/ mes</span>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="plan-features">
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Acceso ilimitado a clases de MMA
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Área de acondicionamiento físico libre
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Entrenamiento de Muay Thai y Jiu-Jitsu
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Coach certificado y rutinas guiadas
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Casilleros y duchas incluidos
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer">
+                            <a href="https://wa.me/56998266080?text=Hola,%20estoy%20interesado%20en%20el%20Plan%20MMA%20Activo." target="_blank" rel="noopener noreferrer" class="btn-gradient card-btn">ADQUIRIR PLAN</a>
+                        </div>
+                    </div>
+
+                    <!-- Alternate pricing plans for realism -->
+                    <div class="pricing-card secondary-plan-card">
+                        <div class="card-header">
+                            <h3 class="card-title">PLAN INDIVIDUAL</h3>
+                            <div class="card-price">
+                                <span class="price-currency">$</span>
+                                <span class="price-amount">30.000</span>
+                                <span class="price-period">/ mes</span>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="plan-features">
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Acceso a 3 clases por semana
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Área de musculación y sacos
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Rutina básica de inicio
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Acceso a camarines
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer">
+                            <a href="https://wa.me/56998266080?text=Hola,%20estoy%20interesado%20en%20el%20Plan%20Individual." target="_blank" rel="noopener noreferrer" class="btn-outline card-btn">MÁS INFORMACIÓN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "CONTÁCTANOS" FORM SECTION -->
+        <section id="contacto" class="contact">
+            <div class="section-container form-wrapper">
+                <h2 class="contact-title">CONTÁCTANOS</h2>
+                <p class="contact-subtitle">Si quieres más información, no dudes en contactarnos</p>
+
+                <!-- Minimalist Form with Horizontal Lines -->
+                <form id="gym-contact-form" class="minimal-form">
+                    <div class="form-group">
+                        <input type="text" id="nombre" name="nombre" class="minimal-input" placeholder=" " required autocomplete="name">
+                        <label for="nombre" class="minimal-label">Nombre</label>
+                        <span class="input-line"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="minimal-input" placeholder=" " required autocomplete="email">
+                        <label for="email" class="minimal-label">Correo electrónico</label>
+                        <span class="input-line"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="mensaje" name="mensaje" rows="4" class="minimal-input" placeholder=" " required></textarea>
+                        <label for="mensaje" class="minimal-label">Mensaje</label>
+                        <span class="input-line"></span>
+                    </div>
+
+                    <div class="form-group-checkbox">
+                        <label class="newsletter-label">
+                            <input type="checkbox" id="newsletter" name="newsletter" checked>
+                            <span class="checkbox-custom"></span>
+                            Suscribirme al newsletter para recibir ofertas y novedades
+                        </label>
+                    </div>
+
+                    <!-- Alert message container -->
+                    <div class="form-alert" id="form-status-alert"></div>
+
+                    <button type="submit" class="btn-gradient form-submit-btn">
+                        <span class="btn-text-content">Enviar</span>
+                        <div class="btn-loader">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER AND CONTACT DETAILS -->
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-title">REDES DE CONTACTO</h2>
+            
+            <!-- Contact Data List -->
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <a href="https://maps.google.com/?q=Catalayud+290,+Temuco+Chile" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon-box">
+                            <!-- Pin/Map marker Icon -->
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="10" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="contact-text">Catalayud 290, Temuco Chile</span>
+                    </a>
+                </li>
+                
+                <li class="contact-item">
+                    <a href="https://wa.me/56998266080" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon-box">
+                            <!-- WhatsApp Icon -->
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.459h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </span>
+                        <span class="contact-text">+56998266080</span>
+                    </a>
+                </li>
+                
+                <li class="contact-item">
+                    <a href="https://instagram.com/teamblackflagmma" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon-box">
+                            <!-- Instagram Icon -->
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-linecap="round" stroke-linejoin="round"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="contact-text">@teamblackflagmma</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Copyright and branding -->
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <p class="copyright">Black Flag MMA 2026 &copy; Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE MODALS -->
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="login-modal">
+        <div class="modal-card">
+            <button class="modal-close" aria-label="Cerrar modal">&times;</button>
+            <div class="modal-header">
+                <img src="assets/logo.png" alt="Black Flag MMA Logo" class="modal-logo">
+                <h3>INICIAR SESIÓN</h3>
+                <p>Ingresa a la plataforma para alumnos</p>
+            </div>
+            <form class="modal-form-content" id="login-form">
+                <div class="form-group-modal">
+                    <label for="login-email">Correo Electrónico</label>
+                    <input type="email" id="login-email" required placeholder="tu@email.com">
+                </div>
+                <div class="form-group-modal">
+                    <label for="login-password">Contraseña</label>
+                    <input type="password" id="login-password" required placeholder="••••••••">
+                </div>
+                <div class="modal-options">
+                    <label class="remember-me">
+                        <input type="checkbox"> Recordarme
+                    </label>
+                    <a href="#" class="forgot-pass">¿Olvidaste tu contraseña?</a>
+                </div>
+                <button type="submit" class="btn-gradient modal-submit">Ingresar</button>
+            </form>
+            <div class="modal-footer-text">
+                ¿No tienes cuenta? <a href="#" id="modal-to-register">Regístrate aquí</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Modal -->
+    <div class="modal-overlay" id="register-modal">
+        <div class="modal-card">
+            <button class="modal-close" aria-label="Cerrar modal">&times;</button>
+            <div class="modal-header">
+                <img src="assets/logo.png" alt="Black Flag MMA Logo" class="modal-logo">
+                <h3>REGÍSTRATE</h3>
+                <p>Únete al equipo BLACK FLAG MMA</p>
+            </div>
+            <form class="modal-form-content" id="register-form">
+                <div class="form-group-modal">
+                    <label for="reg-name">Nombre Completo</label>
+                    <input type="text" id="reg-name" required placeholder="Tu Nombre">
+                </div>
+                <div class="form-group-modal">
+                    <label for="reg-email">Correo Electrónico</label>
+                    <input type="email" id="reg-email" required placeholder="tu@email.com">
+                </div>
+                <div class="form-group-modal">
+                    <label for="reg-password">Contraseña</label>
+                    <input type="password" id="reg-password" required placeholder="Mínimo 8 caracteres">
+                </div>
+                <div class="form-group-modal">
+                    <label for="reg-plan">Plan de Interés</label>
+                    <select id="reg-plan">
+                        <option value="mma-activo">Plan MMA Activo ($40.000/mes)</option>
+                        <option value="individual">Plan Individual ($30.000/mes)</option>
+                        <option value="otro">Otro / Aún no me decido</option>
+                    </select>
+                </div>
+                <label class="terms-accept">
+                    <input type="checkbox" required> Acepto los términos de servicio y políticas del gimnasio.
+                </label>
+                <button type="submit" class="btn-gradient modal-submit">Crear Cuenta</button>
+            </form>
+            <div class="modal-footer-text">
+                ¿Ya tienes cuenta? <a href="#" id="modal-to-login">Inicia sesión</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHATSAPP FLOATING WIDGET -->
+    <a href="https://wa.me/56998266080?text=Hola,%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer" class="whatsapp-floating-widget" aria-label="Contacto por WhatsApp">
+        <div class="whatsapp-icon-wrapper">
+            <!-- WhatsApp Logo SVG -->
+            <svg class="whatsapp-bubble-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.459h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+        </div>
+        <span class="whatsapp-floating-text">Consulta aquí estamos</span>
+    </a>
+
+    <!-- JS Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
