@@ -1172,7 +1172,6 @@ button, input, select, textarea {
     color: var(--text-muted);
     margin-bottom: 5px;
 }
-
 .oss-salute {
     font-family: var(--font-heading);
     font-size: 2.2rem;
@@ -1180,10 +1179,21 @@ button, input, select, textarea {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: var(--accent-red);
-    margin-bottom: 15px;
+    margin-bottom: 2px;
     text-align: center;
     font-style: italic;
     text-shadow: 0 0 15px rgba(255, 30, 39, 0.4);
+}
+
+.oss-author {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-style: italic;
 }
 
 .creator-stamp {
