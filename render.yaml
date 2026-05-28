@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: blckflag
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: "."
