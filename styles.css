@@ -1173,6 +1173,19 @@ button, input, select, textarea {
     margin-bottom: 5px;
 }
 
+.oss-salute {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--accent-red);
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 15px rgba(255, 30, 39, 0.4);
+}
+
 .creator-stamp {
     font-size: 0.75rem;
     color: #333;
